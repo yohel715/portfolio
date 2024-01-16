@@ -1,0 +1,14 @@
+$lightblue: #5493ff;
+$black: #35363a;
+$light: #fff;
+$body-color: #fff;
+$body-bg: $black;
+
+$font-light: 300;
+$font-bold: 700;
+
+@include color-mode(dark) {
+  --bs-modal-bg: #35363a;
+  --bs-modal-border-color: #35363a;
+  --bs-modal-header-border-width: 0;
+}

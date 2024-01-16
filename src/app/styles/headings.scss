@@ -1,0 +1,57 @@
+@import "./vars.scss";
+
+$color-heading: $light;
+
+@mixin heading-1(
+  $color: $lightblue,
+  $font-size: 56px,
+  $font-weight: 800,
+  $letter-spacing: 0,
+  $line-height: 1.2,
+  $margin: 0 0 8px,
+) {
+  color: $color;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+  margin: $margin;
+  width: auto;
+}
+
+@mixin heading-2(
+  $color: $color-heading,
+  $font-size: 38px, //mobile
+  $font-weight: 700,
+  $letter-spacing: 0,
+  $line-height: 1,
+  $margin: 0 0 8px,
+) {
+  color: $color;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+  margin: $margin;
+  width: auto;
+}
+
+@mixin heading-3(
+  $color: $color-heading,
+  $font-size: 24px, //mobile
+  $font-weight: 700,
+  $letter-spacing: 0,
+  $line-height: 1,
+  $margin: 0 0 8px,
+) {
+  color: $color;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+  margin: $margin;
+  width: auto;
+}
