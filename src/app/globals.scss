@@ -3,7 +3,9 @@
 @import "./styles/vars.scss";
 @import "./styles/headings.scss";
 
+@import "./components/banner/banner.scss";
 @import "./components/about/about.scss";
+@import "./components/skills/skills.scss";
 
 * {
   box-sizing: border-box;
@@ -11,8 +13,25 @@
   margin: 0;
 }
 
+.lightblue {
+  color: $lightblue;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
 body {
   background: $black;
+  color: $white;
 }
 
 h1 {
@@ -62,4 +81,10 @@ a {
 
 li {
   list-style-type: none;
+}
+
+@include media-breakpoint-down(sm) {
+  .scroll-to-top {
+    display: none;
+  }
 }

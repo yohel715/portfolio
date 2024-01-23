@@ -1,3 +1,4 @@
+////Colors////
 $lightblue: #5493ff;
 $black: #35363a;
 $light: #fff;
@@ -6,6 +7,14 @@ $body-bg: $black;
 
 $font-light: 300;
 $font-bold: 700;
+
+///Breakpoints///
+$xs: 320px;
+$small: 480px;
+$medium: 768px;
+$large: 992px;
+$xl: 1024px;
+$xxl: 1200px;
 
 @include color-mode(dark) {
   --bs-modal-bg: #35363a;

@@ -55,3 +55,7 @@ $color-heading: $light;
   margin: $margin;
   width: auto;
 }
+
+.heading-large {
+  @include heading-1;
+}

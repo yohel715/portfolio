@@ -1,0 +1,22 @@
+.skills {
+  &__wrapper__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px;
+
+    p {
+      padding: 0;
+      line-height: 1;
+    }
+
+    .image-wrapper {
+      width: auto;
+      height: 32px;
+    }
+  }
+
+  svg > path {
+    fill: #fff;
+  }
+}

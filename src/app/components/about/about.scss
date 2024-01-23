@@ -1,34 +1,20 @@
 @import "../../styles/vars.scss";
-@import "../../styles/headings.scss";
 
 .about {
-  span {
-    @include heading-1($font-size: 32px, $color: $light);
-  }
 
-  @include media-breakpoint-down(lg) {
-    .wrapper {
-      flex-direction: column;
-      text-align: center;
+  &.container {
+    @include media-breakpoint-up(md) {
+      max-width: $large;
     }
   }
 
-  @include media-breakpoint-down(sm) {
-    span {
-      @include heading-1($font-size: 24px, $color: $light);
+  .card {
+    min-height: 200px;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
     }
   }
 }
 
-.custom-modal {
-  padding: 8px;
-
-  .modal-content {
-    border-radius: 8px;
-  }
-
-  .modal-body {
-    padding: 0;
-  }
-}
 

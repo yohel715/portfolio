@@ -1,51 +1,72 @@
-"use client";
-
-import { useState } from 'react';
+import "react";
+import Card from "react-bootstrap/Card";
 import Image from "next/image";
-import profilePic from "../../images/png/profile.png";
-import PdfViewer from "../PdfViewer";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
+import map from "../../images/svg/map.svg";
 
 export default function about() {
-  const pdfUrl = "curriculum.pdf";
-
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [show, setShow] = useState(false);
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [fullscreen, setFullscreen] = useState(true);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   return (
-    <div className="about pt-5" id="about">
-      <div className="container pt-5">
-        <div className="wrapper d-flex align-items-center justify-content-center">
-          <div className="pe-md-5">
-            <span>Hi! I’m</span>
-            <h1>Yohel Ureña Mora</h1>
-            <h2>Developer and UX Designer</h2>
-            <Button
-              type="button"
-              className='mt-3'
-              variant="outline-primary"
-              onClick={handleShow}
-            >
-              Check my curriculum
-            </Button>
+    <div className="about pt-5 container" id="about">
+      <Card data-bs-theme="dark" className="px-lg-5 py-lg-3">
+        <div className="row d-flex align-items-center flex-sm-row-reverse my-3  p-md-0 p-4">
+          <div className="col-md-8 col-sm-12">
+            <h2 className="pb-3 lightblue">I’m from Costa Rica!</h2>
+            <p>
+              On July 15th, 2000, I was born in Puntarenas. I was raised and
+              have lived in Orotina, a district of Alajuela, since childhood.
+              When I was a child, I developed an incredible love for technology
+              and science. This event encouraged me to become a developer and
+              designer.
+            </p>
           </div>
-          <div>
-            <Image src={profilePic} height={400} alt="Picture of the author" />
+          <div className="col-md-4 col-sm-12 d-flex justify-content-center">
+            <Image src={map} height={250} alt="map" />
           </div>
         </div>
-      </div>
+      </Card>
 
-      <Modal dialogClassName="custom-modal" show={show} fullscreen={fullscreen ? true : undefined} onHide={handleClose} data-bs-theme="dark">
-        <Modal.Header closeButton />
-        <Modal.Body>
-          <PdfViewer pdfUrl={pdfUrl} />
-        </Modal.Body>
-      </Modal>
+      <Card
+        data-bs-theme="dark"
+        className="px-lg-5 py-lg-3 justify-content-center"
+      >
+        <div className="row d-flex align-items-center  p-md-0 p-4">
+          <div className="col-md-4 col-sm-12">
+            <h2 className="lightblue text-center">About my Knowledge</h2>
+          </div>
+          <div className="col-md-8 col-sm-12">
+            <p>
+              I am a postgraduate from a bilingual high school. Later on, I
+              started my higher education in graphic design.
+            </p>
+            <p>
+              Since 2018, I have been majoring in Informática y Tecnología
+              Multimedia in the University of Costa Rica (UCR).
+            </p>
+          </div>
+        </div>
+      </Card>
+
+      <Card
+        data-bs-theme="dark"
+        className="px-lg-5 py-lg-3 justify-content-center"
+      >
+        <div className="row d-flex align-items-center flex-md-row flex-column-reverse p-md-0 p-4">
+          <div className="col-md-7 col-sm-12">
+            <p>
+              I am genuinely passionate about problem-solving, creating
+              attractive designs, and always learning new things every day.
+            </p>
+            <p>
+              Since childhood, I have enjoyed challenges that test my ingenuity;
+              in fact, I love Rubik’s Cubes and puzzles overall.
+            </p>
+          </div>
+          <div className="col-md-5 col-sm-12">
+            <h2 className="px-3 lightblue text-center">
+              About my hobbies & Passions
+            </h2>
+          </div>
+        </div>
+      </Card>
     </div>
   );
 }

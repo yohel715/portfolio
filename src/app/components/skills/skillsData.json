@@ -1,0 +1,180 @@
+{
+  "softwareDevelopment": [
+    {
+      "id": 1,
+      "icon": "simple-icons:drupal",
+      "name": "Drupal",
+      "level": "Advanced"
+    },
+    {
+      "id": 2,
+      "icon": "simple-icons:javascript",
+      "name": "JavaScript",
+      "level": "Intermediate"
+    },
+    {
+      "id": 3,
+      "icon": "vscode-icons:file-type-scss",
+      "name": "SCSS",
+      "level": "Advanced"
+    },
+    {
+      "id": 4,
+      "icon": "mdi:react",
+      "name": "React",
+      "level": "Intermediate"
+    },
+    {
+      "id": 5,
+      "icon": "mdi:gatsby",
+      "name": "Gatsby",
+      "level": "Intermediate"
+    },
+    {
+      "id": 6,
+      "icon": "simple-icons:astro",
+      "name": "Astro",
+      "level": "Begginner"
+    },
+    {
+      "id": 7,
+      "icon": "teenyicons:nextjs-solid",
+      "name": "Next.js",
+      "level": "Begginner"
+    },
+    {
+      "id": 8,
+      "icon": "mdi:bootstrap",
+      "name": "Bootstrap",
+      "level": "Advanced"
+    },
+    {
+      "id": 9,
+      "icon": "simple-icons:storybook",
+      "name": "Storybook",
+      "level": "Advanced"
+    },
+    {
+      "id": 10,
+      "src": "/emulsify.png",
+      "name": "Emulsify",
+      "level": "Advanced"
+    },
+    {
+      "id": 11,
+      "icon": "file-icons:twig",
+      "name": "Twig",
+      "level": "Advanced"
+    },
+    {
+      "id": 12,
+      "icon": "mdi:git",
+      "name": "Git",
+      "level": "Advanced"
+    },
+    {
+      "id": 13,
+      "icon": "mdi:github",
+      "name": "Git",
+      "level": "Advanced"
+    },
+    {
+      "id": 14,
+      "icon": "mdi:graphql",
+      "name": "GraphQL",
+      "level": "Beginner"
+    },
+    {
+      "id": 15,
+      "icon": "gg:npm",
+      "name": "NPM",
+      "level": "Beginner"
+    },
+    {
+      "id": 16,
+      "icon": "file-icons:composer",
+      "name": "Composer",
+      "level": "Begginner"
+    },
+    {
+      "id": 17,
+      "icon": "simple-icons:pantheon",
+      "name": "Pantheon",
+      "level": "Intermediate"
+    },
+    {
+      "id": 18,
+      "icon": "simple-icons:netlify",
+      "name": "Netlify",
+      "level": "Intermediate"
+    },
+    {
+      "id": 19,
+      "src": "/lando.png",
+      "name": "Lando",
+      "level": "Intermediate"
+    },
+    {
+      "id": 20,
+      "icon": "mdi:docker",
+      "name": "Docker",
+      "level": "Intermediate"
+    },
+    {
+      "id": 21,
+      "icon": "simple-icons:php",
+      "name": "PHP",
+      "level": "Begginner"
+    },
+    {
+      "id": 22,
+      "icon": "mdi:laravel",
+      "name": "Laravel",
+      "level": "Begginner"
+    },
+    {
+      "id": 23,
+      "icon": "ic:baseline-wordpress",
+      "name": "WordPress",
+      "level": "Advanced"
+    },
+    {
+      "id": 24,
+      "icon": "simple-icons:contentful",
+      "name": "Contentful",
+      "level": "Intermediate"
+    }
+  ],
+  "designMultimedia": [
+    {
+      "id": 1,
+      "icon": "solar:figma-bold",
+      "name": "Figma",
+      "level": "Intermediate"
+    },
+    {
+      "id": 2,
+      "icon": "devicon-plain:illustrator",
+      "name": "Illustrator",
+      "level": "Advanced"
+    },
+    {
+      "id": 3,
+      "icon": "devicon-plain:photoshop",
+      "name": "Photoshop",
+      "level": "Advanced"
+    },
+    {
+      "id": 5,
+      "icon": "devicon-plain:aftereffects",
+      "name": "After Effects",
+      "level": "Intermediate"
+    },
+    {
+      "id": 6,
+      "icon": "devicon-plain:premierepro",
+      "name": "Premiere Pro",
+      "level": "Intermediate"
+    }
+  ]
+}
