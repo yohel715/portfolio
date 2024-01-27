@@ -25,6 +25,12 @@
 
   .modal-content {
     border-radius: 8px;
+    background-color: $black;
+  }
+
+  .modal-header,
+  .modal-footer {
+    background-color: $black;
   }
 
   .modal-body {

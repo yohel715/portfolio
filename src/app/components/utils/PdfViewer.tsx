@@ -13,7 +13,7 @@ export default function PdfViewer({ pdfUrl }: { pdfUrl: string }) {
     <Document file={pdfUrl}>
       <Page
         pageNumber={1}
-        width={782}
+        width={1100}
       />
     </Document>
   );

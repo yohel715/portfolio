@@ -3,9 +3,12 @@
 @import "./styles/vars.scss";
 @import "./styles/headings.scss";
 
+@import "./components/navbar/navbar.scss";
 @import "./components/banner/banner.scss";
 @import "./components/about/about.scss";
 @import "./components/skills/skills.scss";
+// @import "./components/projects/portfolio.scss";
+@import "./components/contact/contact.scss";
 
 * {
   box-sizing: border-box;
@@ -86,5 +89,13 @@ li {
 @include media-breakpoint-down(sm) {
   .scroll-to-top {
     display: none;
+  }
+}
+
+section {
+  @extend .container;
+
+  &:not(:last-child) {
+    padding: 300px 0;
   }
 }

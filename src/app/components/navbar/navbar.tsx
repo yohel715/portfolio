@@ -1,60 +1,53 @@
-'use client'
+"use client";
 
-import React from 'react';
+import React, { useState, useEffect } from "react";
+import { addClassOnScroll } from "../utils/scrollUtils";
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-export default function Navbar() {
-  const handleNavLinkClick = (event: React.MouseEvent) => {
-    const navLinks = document.querySelectorAll(".nav-link");
-    navLinks.forEach((link) => {
-      (event.target as HTMLElement).classList.remove("active");
-    });
-    (event.target as HTMLElement).classList.add("active");
-  };
+function Navigationbar() {
+
+  addClassOnScroll("nav-scrolled", 300, ".navbar");
+
+  const [activeNavItem, setActiveNavItem] = useState("about");
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top">
+    <Navbar
+      expand="lg"
+      className="navbar navbar-expand-lg nav"
+      id="navbar"
+      fixed="top"
+    >
       <div className="container">
-        <a href=".">
-          <span className="brand">
-            {/* <img src={logo} height="30" classNameName="d-inline-block" alt="logo" /> */}
-          </span>
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#" onClick={handleNavLinkClick}>
-                About me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={handleNavLinkClick}>
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={handleNavLinkClick}>
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#" onClick={handleNavLinkClick}>
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link
+              href="#about"
+              data-to-scrollspy-id="about"
+              onClick={() => setActiveNavItem("about")}
+            >
+              About me
+            </Nav.Link>
+            <Nav.Link
+              href="#skills"
+              data-to-scrollspy-id="skills"
+              onClick={() => setActiveNavItem("skills")}
+            >
+              Skills
+            </Nav.Link>
+            <Nav.Link
+              href="#contact"
+              data-to-scrollspy-id="contact"
+              onClick={() => setActiveNavItem("contact")}
+            >
+              Contact
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </div >
+    </Navbar>
   );
 }
+
+export default Navigationbar;

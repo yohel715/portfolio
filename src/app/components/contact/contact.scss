@@ -1,0 +1,17 @@
+.contact {
+  padding-bottom: 30px;
+}
+.form-control {
+  border: 1px solid #4f555a;
+}
+
+.form-label::after {
+  content: "*";
+  color: #fd7871;
+  padding-left: 5px;
+}
+
+.from_alert {
+  color: #fd7871;
+}
+

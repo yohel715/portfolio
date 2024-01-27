@@ -5,7 +5,7 @@ import map from "../../images/svg/map.svg";
 
 export default function about() {
   return (
-    <div className="about pt-5 container" id="about">
+    <div className="about">
       <Card data-bs-theme="dark" className="px-lg-5 py-lg-3">
         <div className="row d-flex align-items-center flex-sm-row-reverse my-3  p-md-0 p-4">
           <div className="col-md-8 col-sm-12">
@@ -19,7 +19,7 @@ export default function about() {
             </p>
           </div>
           <div className="col-md-4 col-sm-12 d-flex justify-content-center">
-            <Image src={map} height={250} alt="map" />
+            <Image className="p-lg-0 p-3" src={map} height={250} alt="map" priority={true} />
           </div>
         </div>
       </Card>
@@ -49,7 +49,12 @@ export default function about() {
         data-bs-theme="dark"
         className="px-lg-5 py-lg-3 justify-content-center"
       >
-        <div className="row d-flex align-items-center flex-md-row flex-column-reverse p-md-0 p-4">
+        <div className="row d-flex align-items-center flex-md-row-reverse flex-column-reverse p-lg-0 p-4">
+          <div className="col-md-5 col-sm-12">
+            <h2 className="px-3 lightblue text-center">
+              About my hobbies & Passions
+            </h2>
+          </div>
           <div className="col-md-7 col-sm-12">
             <p>
               I am genuinely passionate about problem-solving, creating
@@ -59,11 +64,6 @@ export default function about() {
               Since childhood, I have enjoyed challenges that test my ingenuity;
               in fact, I love Rubik’s Cubes and puzzles overall.
             </p>
-          </div>
-          <div className="col-md-5 col-sm-12">
-            <h2 className="px-3 lightblue text-center">
-              About my hobbies & Passions
-            </h2>
           </div>
         </div>
       </Card>

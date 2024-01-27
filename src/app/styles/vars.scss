@@ -1,9 +1,11 @@
 ////Colors////
-$lightblue: #5493ff;
-$black: #35363a;
-$light: #fff;
 $body-color: #fff;
 $body-bg: $black;
+$black: #35363a;
+$light: #fff;
+$grey:#888;
+$lightblue: #5493ff;
+$lightgrey: #b3b3b3;
 
 $font-light: 300;
 $font-bold: 700;
@@ -15,9 +17,3 @@ $medium: 768px;
 $large: 992px;
 $xl: 1024px;
 $xxl: 1200px;
-
-@include color-mode(dark) {
-  --bs-modal-bg: #35363a;
-  --bs-modal-border-color: #35363a;
-  --bs-modal-header-border-width: 0;
-}

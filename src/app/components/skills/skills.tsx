@@ -8,9 +8,9 @@ import Image from "next/image";
 
 export default function skill() {
   return (
-    <div className="skills container pt-5">
+    <div className="skills">
       <div className="row align-items-start">
-        <div className="col-sm-6">
+        <div className="col-xl-6 col-lg-12">
           <h2 className="text-center mx-5 mb-4 heading-large">
             Software Development
           </h2>
@@ -44,7 +44,7 @@ export default function skill() {
           </div>
         </div>
 
-        <div className="col-sm-6">
+        <div className="col-xl-6 col-lg-12">
           <h2 className="text-center mx-5 mb-4 heading-large">
             Design &amp; Multimedia
           </h2>
