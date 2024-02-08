@@ -48,6 +48,12 @@ li {
   list-style-type: none;
 }
 
+.text-center-sm {
+  @include media-breakpoint-down(sm) {
+    text-align: center;
+  }
+}
+
 @include media-breakpoint-down(sm) {
   .scroll-to-top {
     display: none;
@@ -60,5 +66,14 @@ section {
 
   @include media-breakpoint-down(sm) {
     margin-bottom: $space-double;
+  }
+}
+
+.grid-item {
+  width: 400px;
+  padding: $space-one-half;
+
+  @include media-breakpoint-down(lg) {
+    width: 100%;
   }
 }

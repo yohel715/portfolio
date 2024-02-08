@@ -9,7 +9,7 @@ export default function about() {
       <Card data-bs-theme="dark" className="px-lg-5 py-lg-3">
         <div className="row d-flex align-items-center flex-sm-row-reverse my-3  p-md-0 p-4">
           <div className="col-md-8 col-sm-12">
-            <h2 className="pb-3 lightblue">I’m from Costa Rica!</h2>
+            <h2 className="mb-3 lightblue text-center-sm">I’m from Costa Rica!</h2>
             <p>
               On July 15th, 2000, I was born in Puntarenas. I was raised and
               have lived in Orotina, a district of Alajuela, since childhood.
@@ -30,7 +30,7 @@ export default function about() {
       >
         <div className="row d-flex align-items-center  p-md-0 p-4">
           <div className="col-md-4 col-sm-12">
-            <h2 className="lightblue text-center">About my Knowledge</h2>
+            <h2 className="lightblue mx-3 text-center">About my Knowledge</h2>
           </div>
           <div className="col-md-8 col-sm-12">
             <p>
@@ -49,13 +49,13 @@ export default function about() {
         data-bs-theme="dark"
         className="px-lg-5 py-lg-3 justify-content-center"
       >
-        <div className="row d-flex align-items-center flex-md-row-reverse flex-column-reverse p-lg-0 p-4">
-          <div className="col-md-5 col-sm-12">
+        <div className="row d-flex align-items-center p-md-0 p-4">
+          <div className="col-md-4 col-sm-12">
             <h2 className="px-3 lightblue text-center">
               About my hobbies & Passions
             </h2>
           </div>
-          <div className="col-md-7 col-sm-12">
+          <div className="col-md-8 col-sm-12">
             <p>
               I am genuinely passionate about problem-solving, creating
               attractive designs, and always learning new things every day.

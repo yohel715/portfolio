@@ -14,6 +14,8 @@
     "bootstrap-icons": "^1.11.3",
     "emailjs-com": "^3.2.0",
     "file-saver": "^2.0.5",
+    "jquery": "^3.7.1",
+    "masonry-layout": "^4.2.2",
     "next": "14.0.4",
     "pdfjs": "^2.5.3",
     "pdfjs-dist": "^4.0.379",
