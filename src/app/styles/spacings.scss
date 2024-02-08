@@ -1,0 +1,25 @@
+// Spacing
+$space: 16px;
+
+// Times
+$space-and-half: $space * 1.5;
+$space-double: $space * 2;
+$space-triple: $space * 3;
+$space-quadruple: $space * 4;
+$space-quintuple: $space * 5;
+$space-sextuple: $space * 6;
+$space-septuple: $space * 7;
+
+// Divided
+$space-one-half: calc($space/2);
+$space-one-third: calc($space/3);
+$space-one-fourth: calc($space/4);
+$space-one-fifth: calc($space/5);
+$space-one-sixth: calc($space/6);
+$space-one-seventh: calc($space/7);
+$space-one-eighth: calc($space/8);
+
+// Layout Spacing
+$layout-gap: $space-triple;
+$layout-gap-large: $space-quadruple;
+$default-wrapper-padding: $space-double;

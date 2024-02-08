@@ -10,8 +10,8 @@ export default function skill() {
   return (
     <div className="skills">
       <div className="row align-items-start">
-        <div className="col-xl-6 col-lg-12">
-          <h2 className="text-center mx-5 mb-4 heading-large">
+        <div className="col-xl-7 col-lg-12">
+          <h2 className="text-center mb-4 heading-large">
             Software Development
           </h2>
           <p>
@@ -44,8 +44,8 @@ export default function skill() {
           </div>
         </div>
 
-        <div className="col-xl-6 col-lg-12">
-          <h2 className="text-center mx-5 mb-4 heading-large">
+        <div className="col-xl-5 col-lg-12">
+          <h2 className="text-center mb-4 heading-large">
             Design &amp; Multimedia
           </h2>
           <p>

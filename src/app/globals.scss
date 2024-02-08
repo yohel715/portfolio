@@ -1,7 +1,8 @@
+@import "./styles/variables.scss";
+@import "./styles/spacings.scss";
 @import '~bootstrap/scss/bootstrap';
-
-@import "./styles/vars.scss";
 @import "./styles/headings.scss";
+
 
 @import "./components/navbar/navbar.scss";
 @import "./components/banner/banner.scss";
@@ -20,45 +21,9 @@
   color: $lightblue;
 }
 
-.small {
-  font-size: 14px;
-}
-
-.font-weight-bold {
-  font-weight: 700;
-}
-
-.font-weight-light {
-  font-weight: 300;
-}
-
 body {
   background: $black;
   color: $white;
-}
-
-h1 {
-  @include heading-1;
-
-  @include media-breakpoint-down(sm) {
-    @include heading-1($font-size: 32px)
-  }
-}
-
-h2 {
-  @include heading-2;
-
-  @include media-breakpoint-down(sm) {
-    @include heading-2($font-size: 24px)
-  }
-}
-
-h3 {
-  @include heading-3;
-
-  @include media-breakpoint-down(sm) {
-    @include heading-3($font-size: 18px)
-  }
 }
 
 html,
@@ -67,9 +32,6 @@ body {
   overflow-x: hidden;
 }
 
-p {
-  font-size: 18px;
-}
 
 a {
   font-weight: $font-light;
@@ -94,8 +56,9 @@ li {
 
 section {
   @extend .container;
+  margin-bottom: $space-quadruple;
 
-  &:not(:last-child) {
-    padding: 300px 0;
+  @include media-breakpoint-down(sm) {
+    margin-bottom: $space-double;
   }
 }

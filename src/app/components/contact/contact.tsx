@@ -7,14 +7,14 @@ import ContactForm from "../utils/ContactForm";
 export default function contact() {
   return (
     <div className="contact">
-      <h2 className="lightblue py-3">Let&apos;s create something new!</h2>
+      <h2 className="lightblue py-3 heading-large">Let&apos;s create something new!</h2>
       <div className="row">
-        <div className="col-md-9 col-sm-12">
+        <div className="col-md-8 col-sm-12">
           <h3>Text me</h3>
           <ContactForm />
         </div>
-        <div className="col-md-3 col-sm-12 pt-5 pt-md-0">
-          <div>
+        <div className="col-md-4 col-sm-12 pt-5 pt-md-0">
+          <div className="d-flex flex-column align-items-center">
             <h3>My social networks</h3>
             <a
               className="d-flex mt-3 mb-4 align-items-center"

@@ -1,10 +1,10 @@
-@import "./vars.scss";
+@import "./variables.scss";
 
 $color-heading: $light;
 
 @mixin heading-1(
   $color: $lightblue,
-  $font-size: 56px,
+  $font-size: 62px,
   $font-weight: 800,
   $letter-spacing: 0,
   $line-height: 1.2,
@@ -57,5 +57,46 @@ $color-heading: $light;
 }
 
 .heading-large {
+  @include heading-1($font-size: 52px);
+}
+
+
+h1 {
   @include heading-1;
+
+  @include media-breakpoint-down(sm) {
+    @include heading-1($font-size: 38px)
+  }
+}
+
+h2 {
+  @include heading-2;
+
+  @include media-breakpoint-down(sm) {
+    @include heading-2($font-size: 24px)
+  }
+}
+
+h3 {
+  @include heading-3;
+
+  @include media-breakpoint-down(sm) {
+    @include heading-3($font-size: 18px)
+  }
+}
+
+p {
+  font-size: 18px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-light {
+  font-weight: 300;
 }

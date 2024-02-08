@@ -40,7 +40,7 @@ export default function banner() {
             <span>Hi! I’m</span>
             <h1>Yohel Ureña Mora</h1>
             <h2>
-              Frontend Developer <br /> and UX Designer
+              Frontend Developer and UX Designer
             </h2>
             <Button
               type="button"
