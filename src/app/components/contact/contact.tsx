@@ -37,6 +37,15 @@ export default function contact() {
             <a
               className="d-flex mb-4 align-items-center"
               target="_blank"
+              href="https://www.instagram.com/yohel.design/"
+              rel="noopener noreferrer"
+            >
+              <Icon icon="ant-design:instagram" width="32" height="32" />
+              <h6 className="font-weight-regular mx-2 m-0">yohel.design</h6>
+            </a>
+            <a
+              className="d-flex mb-4 align-items-center"
+              target="_blank"
               href="https://github.com/yohel715"
               rel="noopener noreferrer"
             >

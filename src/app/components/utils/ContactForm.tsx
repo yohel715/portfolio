@@ -40,7 +40,7 @@ const ContactForm = () => {
   const handleCloseModal = () => setShowModal(false);
 
   return (
-    <Form onSubmit={handleSubmit(onSubmit)}>
+    <Form onSubmit={handleSubmit(onSubmit)} data-bs-theme="dark">
       <Form.Group controlId="formName" className="py-3">
         <Form.Label>Name</Form.Label>
         <Form.Control

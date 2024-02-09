@@ -21,13 +21,11 @@ export default function Portfolio() {
       <div className="grid" ref={masonryRef}>
         <div className="grid-item">
           <Card data-bs-theme="dark">
-            <Card.Img variant="top" src="https://placehold.co/1080"/>
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
               <Card.Text>
                 Some quick example text to build
               </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
             </Card.Body>
           </Card>
         </div>
