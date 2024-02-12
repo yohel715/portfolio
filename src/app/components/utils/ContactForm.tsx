@@ -65,8 +65,8 @@ const ContactForm = () => {
           })}
         />
         {errors.email && <Form.Text className="text-danger">{errors.email.message}</Form.Text>}
+        <small className="text-muted form-text px-1">I&apos;ll never share your email with anyone else.</small>
       </Form.Group>
-      {errors.email && <p>{errors.email.message}</p>}
 
       <Form.Group controlId="formMessage" className="py-3">
         <Form.Label>Message</Form.Label>
@@ -77,7 +77,6 @@ const ContactForm = () => {
         />
         {errors.message && <Form.Text className="text-danger">{errors.message.message}</Form.Text>}
       </Form.Group>
-      {errors.message && <p>{errors.message.message}</p>}
 
       <Button variant="outline-primary px-5 mt-3" type="submit">
         Submit

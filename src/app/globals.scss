@@ -8,7 +8,7 @@
 @import "./components/banner/banner.scss";
 @import "./components/about/about.scss";
 @import "./components/skills/skills.scss";
-// @import "./components/projects/portfolio.scss";
+@import "./components/portfolio/portfolio.scss";
 @import "./components/contact/contact.scss";
 
 * {
@@ -62,18 +62,11 @@ li {
 
 section {
   @extend .container;
-  margin-bottom: $space-quadruple;
+  padding-top: $space-quadruple;
+  padding-bottom: $space-quadruple;
 
   @include media-breakpoint-down(sm) {
-    margin-bottom: $space-double;
-  }
-}
-
-.grid-item {
-  width: 400px;
-  padding: $space-one-half;
-
-  @include media-breakpoint-down(lg) {
-    width: 100%;
+    padding-top: $space-double;
+    padding-bottom: $space-double;
   }
 }

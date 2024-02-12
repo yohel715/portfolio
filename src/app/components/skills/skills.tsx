@@ -4,7 +4,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import skillsData from "./skillsData.json";
-import Image from "next/image";
 
 export default function skill() {
   return (

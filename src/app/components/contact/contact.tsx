@@ -6,8 +6,8 @@ import ContactForm from "../utils/ContactForm";
 
 export default function contact() {
   return (
-    <div className="contact">
-      <h2 className="lightblue py-3 heading-large">Let&apos;s create something new!</h2>
+    <div className="contact mb-5">
+      <h2 className="lightblue py-3 heading-large mb-5">Let&apos;s create something new!</h2>
       <div className="row">
         <div className="col-md-8 col-sm-12">
           <h3>Text me</h3>

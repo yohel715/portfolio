@@ -16,6 +16,10 @@
     color: $light;
   }
 
+  &-link:focus {
+    color: $light;
+  }
+
   &-link.active,
   .active-scroll-spy {
     color: $lightblue !important;

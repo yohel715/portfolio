@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Wireframes for Sinwa Tours",
+    "description": "A website for a small entrepreneur company called Sinwa Tours located in Monteverde.",
+    "image": "/images/portfolio/sinwa-tours-wireframes.png",
+    "url": "/portfolio/sinwa-tours-wireframes",
+    "tags": ["Design"],
+    "technologies": [
+      "solar:figma-bold"
+    ]
+  },
+  {
+    "title": "Magic The Gathering",
+    "description": "A prototype application which consumes the Magic’s gathering API.",
+    "image": "/images/portfolio/magic-the-gathering.png",
+    "url": "/portfolio/magic-the-gathering",
+    "tags": ["Development"],
+    "technologies": [
+      "solar:figma-bold",
+      "cib:expo",
+      "akar-icons:javascript-fill",
+      "mdi:github"
+    ]
+  },
+  {
+    "title": "Matte Painting Art",
+    "description": "A fantasy photo montage with various elements, using the technique matte painting.",
+    "image": "/images/portfolio/matte-painting.jpg",
+    "url": "/portfolio/matte-painting-art",
+    "tags": ["Design"],
+    "technologies": [
+      "devicon-plain:photoshop"
+    ]
+  },
+  {
+    "title": "Ticovid APP Wireframes",
+    "description": "A mobile application for the Costa Rican government to track the spread of COVID-19.",
+    "image": "/images/portfolio/ticovid-app-wireframes.png",
+    "url": "/portfolio/ticovid-app-wireframes",
+    "tags": ["Design"],
+    "technologies": [
+      "solar:figma-bold"
+    ]
+  }
+]
