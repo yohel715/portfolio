@@ -11,6 +11,7 @@ import Skills from './components/skills/skills'
 import ScrollToTop from './components/utils/ScrollToTop'
 import Contact from './components/contact/contact'
 import Portfolio from './components/portfolio/portfolio'
+import Experience from './components/experience/experience'
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
       </section>
       <section id="skills">
         <Skills />
+      </section>
+      <section id="experience">
+        <Experience />
       </section>
       <section id="portfolio">
         <Portfolio />

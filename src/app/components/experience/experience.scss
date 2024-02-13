@@ -1,0 +1,39 @@
+.experience {
+
+  .carousel {
+    height: 300px;
+  }
+
+  .carousel-inner {
+    overflow: visible;
+  }
+
+  .carousel-caption {
+    bottom: 0;
+    top: 20px;
+  }
+
+  .row {
+    padding-bottom: 2px;
+  }
+
+  .left {
+    border-right: 1px dashed;
+
+    p {
+      margin-top: 13px;
+    }
+  }
+
+  .right:before {
+    content: ' ';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $light;
+    position: relative;
+    left: -18px;
+    top: 19px;
+  }
+}
