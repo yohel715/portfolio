@@ -22,7 +22,7 @@ export default function Portfolio() {
         className="masonry-grid"
         columnClassName="masonry-grid_column">
         {portfolioData.map((item, index) => (
-          <a href={item.url} key={index}>
+          <a key={index}>
             <Card data-bs-theme="dark" className='portfolio-card mb-4'>
               <Card.Img variant="top" src={item.image} />
               <Card.Body>

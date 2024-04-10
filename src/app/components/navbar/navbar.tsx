@@ -37,12 +37,19 @@ function Navigationbar() {
               Skills
             </Nav.Link>
             <Nav.Link
+              href="#experience"
+              data-to-scrollspy-id="experience"
+              onClick={() => setActiveNavItem("experience")}
+            >
+              Experience
+            </Nav.Link>
+            {/* <Nav.Link
               href="#portfolio"
               data-to-scrollspy-id="portfolio"
               onClick={() => setActiveNavItem("portfolio")}
             >
               Portfolio
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link
               href="#contact"
               data-to-scrollspy-id="contact"
