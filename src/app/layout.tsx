@@ -9,8 +9,38 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Yohel Ureña Mora',
-  description: 'My personal portfolio',
+  generator: 'Next.js',
+  title: 'Portfolio | Yohel Ureña Mora  Web Development',
+  description: 'My personal portfolio in web development and software engineering. Here you can find my projects, experiences, and more.',
+  keywords: ['portfolio', 'web development', 'software engineering'],
+  metadataBase: new URL('https://yohelurena.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://yohel.dev',
+    siteName: 'Yohel Ureña Mora',
+    title: 'Portfolio | Yohel Ureña Mora',
+    description: 'My personal portfolio',
+    images: [
+      {
+        url: 'https://yohelurena.com/images/opengraph-image.png', //Must be an absolute URL
+        width: 1200,
+        height: 630,
+        alt: 'Yohel Ureña Mora - Portfolio',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({

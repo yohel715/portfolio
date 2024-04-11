@@ -39,9 +39,9 @@ export default function banner() {
           <div className="pe-md-5">
             <span>Hi! I’m</span>
             <h1>Yohel Ureña Mora</h1>
-            <h2>
+            <p className="h2">
               Frontend Developer and UX Designer
-            </h2>
+            </p >
             <Button
               type="button"
               className="mt-3"
