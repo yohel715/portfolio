@@ -8,11 +8,16 @@ export const addClassOnScroll = (className: string, scrollThreshold: number, tar
 
       if (scrollY > scrollThreshold) {
         targetElement?.classList.add(className);
+
+        // Remove active class from all nav links
+        const navLinks = document.querySelectorAll('.navbar-nav a');
+        navLinks.forEach((navLink) => {
+          navLink.classList.remove('active');
+        });
       } else {
         targetElement?.classList.remove(className);
       }
     };
-
     // Attach the scroll event listener
     window.addEventListener('scroll', handleScroll);
 
