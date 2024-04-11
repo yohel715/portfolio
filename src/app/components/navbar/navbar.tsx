@@ -18,7 +18,6 @@ function Navigationbar() {
     { id: "about", label: "About me" },
     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
-    { id: "portfolio", label: "Portfolio" },
     { id: "contact", label: "Contact" }
   ];
 
