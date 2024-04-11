@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://yohel.dev',
+    url: 'https:///yohelurena.com',
     siteName: 'Yohel Ureña Mora',
     title: 'Portfolio | Yohel Ureña Mora',
     description: 'My personal portfolio',
