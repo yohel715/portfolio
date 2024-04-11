@@ -7,21 +7,28 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigationbar() {
 
-  addClassOnScroll("nav-scrolled", 300, ".navbar");
+  addClassOnScroll("nav-scrolled", 200, ".navbar");
 
-  const [activeNavItem, setActiveNavItem] = useState("about");
+  // Set active nav item
+  const [activeNavItem, setActiveNavItem] = useState("home");
 
   return (
     <Navbar
       expand="lg"
       className="navbar navbar-expand-lg nav"
       id="navbar"
-      fixed="top"
     >
       <div className="container">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+            <Nav.Link
+              href="#home"
+              data-to-scrollspy-id="home"
+              onClick={() => setActiveNavItem("home")}
+            >
+              Home
+            </Nav.Link>
             <Nav.Link
               href="#about"
               data-to-scrollspy-id="about"

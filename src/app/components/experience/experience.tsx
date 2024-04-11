@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 export default function experience() {
   return (
     <div className="experience">
-      <h2 className="lightblue">Experience</h2>
+      <h2 className="lightblue heading-large">Experience</h2>
       <p>
         My experience working as a software developer and other roles since
         2019.

@@ -17,25 +17,29 @@ export default function Home() {
   return (
     <>
     <Navigationbar />
-    <ScrollSpy>
-      <Banner />
-      <section id="about">
-        <About />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="experience">
-        <Experience />
-      </section>
-      {/* <section id="portfolio">
-        <Portfolio />
-      </section> */}
-      <section id="contact">
-        <Contact />
-      </section>
-    </ScrollSpy>
-    <ScrollToTop />
+    <div className="sections">
+      <ScrollSpy>
+        <section id="home">
+          <Banner />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        {/* <section id="portfolio">
+          <Portfolio />
+        </section> */}
+        <section id="contact">
+          <Contact />
+        </section>
+      </ScrollSpy>
+      <ScrollToTop />
+    </div>
     </>
   )
 }

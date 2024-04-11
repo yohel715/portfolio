@@ -1,7 +1,6 @@
 @import "../../styles/variables.scss";
 
 .about {
-
   &.container {
     @include media-breakpoint-up(md) {
       max-width: $large;

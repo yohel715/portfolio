@@ -67,3 +67,8 @@ section {
     padding-bottom: $space-double;
   }
 }
+
+//prevents content jumping when navbar is fixed
+.nav-scrolled ~ .sections {
+  padding-top: 56px;
+}

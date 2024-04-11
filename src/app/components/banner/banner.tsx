@@ -33,7 +33,7 @@ export default function banner() {
   };
 
   return (
-    <div className="banner py-5" id="banner">
+    <div className="banner pb-5" id="banner">
       <div className="container pt-5">
         <div className="wrapper d-flex align-items-center justify-content-center">
           <div className="pe-md-5">

@@ -4,7 +4,7 @@ $color-heading: $light;
 
 @mixin heading-1(
   $color: $lightblue,
-  $font-size: 62px,
+  $font-size: 68px,
   $font-weight: 800,
   $letter-spacing: 0,
   $line-height: 1.2,
@@ -58,6 +58,10 @@ $color-heading: $light;
 
 .heading-large {
   @include heading-1($font-size: 52px);
+
+  @include media-breakpoint-down(sm) {
+    @include heading-1($font-size: 42px)
+  }
 }
 
 
