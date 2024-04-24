@@ -7,6 +7,7 @@ import PdfViewer from "../utils/PdfViewer";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { saveAs } from "file-saver";
+import { Icon } from "@iconify/react";
 
 export default function banner() {
   const pdfUrl = "curriculum.pdf";
@@ -32,6 +33,29 @@ export default function banner() {
       });
   };
 
+  const contacs = [
+    {
+      icon: "simple-icons:linkedin",
+      url: "https://www.linkedin.com/in/yohelurenamora/",
+    },
+    {
+      icon: "simple-icons:github",
+      url: "https://github.com/",
+    },
+    {
+      icon: "simple-icons:maildotru",
+      url: "mailto:yohel715@gmail.com",
+    },
+    {
+      icon: "simple-icons:whatsapp",
+      url: "https://wa.me/50670139624",
+    },
+    {
+      icon: "simple-icons:drupal",
+      url: "https://www.drupal.org/u/yurena",
+    }
+  ];
+
   return (
     <div className="banner pb-5" id="banner">
       <div className="container pt-5">
@@ -50,9 +74,22 @@ export default function banner() {
             >
               Check my curriculum
             </Button>
+            <div className="d-flex mt-3 contact-links">
+              {contacs.map((contact, index) => (
+                <a
+                  key={index}
+                  href={contact.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-decoration-none me-3"
+                >
+                  <Icon icon={contact.icon} width="32" height="32" />
+                </a>
+              ))}
+            </div>
           </div>
           <div>
-            <Image src={profilePic} height={400} alt="Picture of the author" />
+            <Image src={profilePic} height={400} alt="Picture of the author" priority />
           </div>
         </div>
       </div>
