@@ -1,10 +1,8 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
-import CardGroup from 'react-bootstrap/CardGroup'
 import Masonry from 'react-masonry-css';
 import portfolioData from "./portfolioData.json";
 import { Icon } from "@iconify/react";
-
 
 export default function Portfolio() {
   const breakpointColumnsObj = {
@@ -23,7 +21,7 @@ export default function Portfolio() {
         className="masonry-grid"
         columnClassName="masonry-grid_column">
         {portfolioData.map((item, index) => (
-          <a key={index}>
+          <React.Fragment key={index}>
             <Card data-bs-theme="dark" className='portfolio-card mb-4'>
               <Card.Img variant="top" src={item.image} />
               <Card.Body>
@@ -38,18 +36,16 @@ export default function Portfolio() {
                 <Card.Text>
                   {item.description}
                 </Card.Text>
-                <CardGroup>
+                <Card.Text>
                   {
                     item.links && (
                       item.links.map((link, index) => (
-                      <div key={index}>
-                        <a href={link.url} target="_blank" rel="noreferrer" className=" text-decoration-none me-2">
+                      <Card.Link key={index} href={link.url} target="_blank" className='text-decoration-none me-2'>
                         {link.text}
-                      </a>
-                      </div>
+                      </Card.Link>
                     )))
                   }
-                </CardGroup>
+                </Card.Text>
               </Card.Body>
               <Card.Footer>
                 <p className="text-body-secondary fs-6 fw-lighter">Technologies used</p>
@@ -60,7 +56,7 @@ export default function Portfolio() {
                 </div>
               </Card.Footer>
             </Card>
-          </a>
+          </React.Fragment>
         ))}
       </Masonry>
     </div>
