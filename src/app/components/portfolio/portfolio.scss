@@ -10,11 +10,21 @@
   background-clip: padding-box;
 }
 
-// .portfolio-card {
-//   &:hover,
-//   &:focus {
-//     border: 1px solid $lightblue;
-//     transform: scale(1.01);
-//     transition: transform 0.4s ease-in-out;
-//   }
-// }
+.portfolio-card {
+  // &:hover,
+  // &:focus {
+  //   border: 1px solid $lightblue;
+  //   transform: scale(1.01);
+  //   transition: transform 0.4s ease-in-out;
+  // }
+
+  .card-body {
+    a {
+      color: $lightblue;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
