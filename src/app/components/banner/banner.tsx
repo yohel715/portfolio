@@ -74,7 +74,7 @@ export default function banner() {
             >
               Check my curriculum
             </Button>
-            <div className="d-flex mt-3 contact-links">
+            <div className="d-flex justify-content-md-start justify-content-sm-center mt-3 contact-links">
               {contacs.map((contact, index) => (
                 <a
                   key={index}
