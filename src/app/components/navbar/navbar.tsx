@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigationbar() {
 
-  addClassOnScroll("nav-scrolled", 100, ".navbar");
+  addClassOnScroll("nav-scrolled", 50, ".navbar");
 
   // Set active nav item
   const [activeNavItem, setActiveNavItem] = useState("home");
@@ -18,6 +18,7 @@ function Navigationbar() {
     { id: "about", label: "About me" },
     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
+    { id: "portfolio", label: "Portfolio" },
     { id: "contact", label: "Contact" }
   ];
 

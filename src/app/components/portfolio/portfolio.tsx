@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
+import CardGroup from 'react-bootstrap/CardGroup'
 import Masonry from 'react-masonry-css';
 import portfolioData from "./portfolioData.json";
 import { Icon } from "@iconify/react";
@@ -37,6 +38,18 @@ export default function Portfolio() {
                 <Card.Text>
                   {item.description}
                 </Card.Text>
+                <CardGroup>
+                  {
+                    item.links && (
+                      item.links.map((link, index) => (
+                      <div key={index}>
+                        <a href={link.url} target="_blank" rel="noreferrer" className=" text-decoration-none me-2">
+                        {link.text}
+                      </a>
+                      </div>
+                    )))
+                  }
+                </CardGroup>
               </Card.Body>
               <Card.Footer>
                 <p className="text-body-secondary fs-6 fw-lighter">Technologies used</p>

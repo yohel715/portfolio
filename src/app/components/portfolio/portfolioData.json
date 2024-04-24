@@ -2,6 +2,12 @@
   {
     "title": "Wireframes for Sinwa Tours",
     "description": "A website for a small entrepreneur company called Sinwa Tours located in Monteverde.",
+    "links" : [
+      {
+        "text": "View on Figma",
+        "url": "https://www.figma.com/file/RBPRBt2Byf9R0xFvW9eE8D/Sinwa-Wireframes?type=design&t=O7KHXwOzQd3caSpZ-6"
+      }
+    ],
     "image": "/images/portfolio/sinwa-tours-wireframes.png",
     "url": "/portfolio/sinwa-tours-wireframes",
     "tags": ["Design"],
@@ -12,19 +18,33 @@
   {
     "title": "Magic The Gathering",
     "description": "A prototype application which consumes the Magic’s gathering API.",
+    "links" : [
+      {
+        "text": "View on GitHub",
+        "url": "https://github.com/yohel715/Magic-The-Gathering-API"
+      }
+    ],
     "image": "/images/portfolio/magic-the-gathering.png",
     "url": "/portfolio/magic-the-gathering",
     "tags": ["Development"],
     "technologies": [
+      "mdi:react",
       "solar:figma-bold",
       "cib:expo",
       "akar-icons:javascript-fill",
+      "mdi:android-studio",
       "mdi:github"
     ]
   },
   {
     "title": "Matte Painting Art",
     "description": "A fantasy photo montage with various elements, using the technique matte painting.",
+    "links" : [
+      {
+        "text": "View on Instagram",
+        "url": "https://www.instagram.com/yohel.design/p/CDapVTnDsKY/?img_index=1"
+      }
+    ],
     "image": "/images/portfolio/matte-painting.jpg",
     "url": "/portfolio/matte-painting-art",
     "tags": ["Design"],
@@ -35,11 +55,63 @@
   {
     "title": "Ticovid APP Wireframes",
     "description": "A mobile application for the Costa Rican government to track the spread of COVID-19.",
+    "links" : [
+      {
+        "text": "View on Figma",
+        "url": "https://www.figma.com/file/vECfXWWxIzuW9rPFEKIdW4/Wireframes-Android?type=design&t=O7KHXwOzQd3caSpZ-6"
+      }
+    ],
     "image": "/images/portfolio/ticovid-app-wireframes.png",
     "url": "/portfolio/ticovid-app-wireframes",
     "tags": ["Design"],
     "technologies": [
       "solar:figma-bold"
+    ]
+  },
+  {
+    "title": "Ticovid APP Prototype",
+    "description": "A fully functional prototype, developed in conjunction with other classmates. Mobile app to know about the SARS-CoV-2 virus situation in Costa Rica.",
+    "links" : [
+      {
+        "text": "View on GitHub",
+        "url": "https://github.com/yohel715/TicovidProject"
+      },
+      {
+        "text": "View on Figma",
+        "url": "https://www.figma.com/file/vECfXWWxIzuW9rPFEKIdW4/Wireframes-Android?type=design&t=O7KHXwOzQd3caSpZ-6"
+      }
+    ],
+    "image": "/images/portfolio/ticovid-app-prototype.png",
+    "url": "/portfolio/ticovid-app-prototype",
+    "tags": ["Development"],
+    "technologies": [
+      "mdi:react",
+      "solar:figma-bold",
+      "cib:expo",
+      "cib:java",
+      "mdi:android-studio",
+      "mdi:github"
+    ]
+  },
+  {
+    "title": "This Portfolio",
+    "description": "My personal portfolio, built with Next.js, React, Bootstrap, using Node Modules Packages, and deployed on Netlify.",
+    "links" : [
+      {
+        "text": "View on GitHub",
+        "url": "https://github.com/yohel715/portfolio"
+      }
+    ],
+    "url": "/portfolio/this-portfolio",
+    "tags": ["Development"],
+    "technologies": [
+      "mdi:react",
+      "mdi:nextjs",
+      "mdi:bootstrap",
+      "mdi:nodejs",
+      "mdi:netlify",
+      "mdi:github",
+      "simple-icons:netlify"
     ]
   }
 ]
