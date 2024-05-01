@@ -13,6 +13,12 @@
       "level": "Intermediate"
     },
     {
+      "id": 2.5,
+      "icon": "simple-icons:typescript",
+      "name": "TypeScript",
+      "level": "Intermediate"
+    },
+    {
       "id": 3,
       "icon": "vscode-icons:file-type-scss",
       "name": "SCSS",
@@ -22,6 +28,12 @@
       "id": 4,
       "icon": "mdi:react",
       "name": "React",
+      "level": "Intermediate"
+    },
+    {
+      "id": 4.5,
+      "icon": "mdi:react",
+      "name": "React Native",
       "level": "Intermediate"
     },
     {
