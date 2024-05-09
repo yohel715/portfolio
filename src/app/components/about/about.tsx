@@ -1,15 +1,16 @@
-import "react";
-import Card from "react-bootstrap/Card";
 import Image from "next/image";
 import map from "../../images/svg/map.svg";
 
 export default function about() {
   return (
     <div className="about">
-      <Card data-bs-theme="dark" className="px-lg-5 py-lg-3">
-        <div className="row d-flex align-items-center flex-sm-row-reverse my-3  p-md-0 p-4">
+      <div className="px-lg-5 py-lg-3">
+        <div
+          className=" row d-flex align-items-center  flex-sm-row-reverse my-3 p-md-0 p-4">
           <div className="col-md-8 col-sm-12">
-            <h2 className="mb-3 lightblue text-center-sm">I’m from Costa Rica!</h2>
+            <h2 className="mb-3 lightblue text-center-sm">
+              I’m from Costa Rica!
+            </h2>
             <p>
               On July 15th, 2000, I was born in Puntarenas. I was raised and
               have lived in Orotina, a district of Alajuela, since childhood.
@@ -19,15 +20,18 @@ export default function about() {
             </p>
           </div>
           <div className="col-md-4 col-sm-12 d-flex justify-content-center">
-            <Image className="p-lg-0 p-3" src={map} height={250} alt="map" priority={true} />
+            <Image
+              className="p-lg-0 p-3"
+              src={map}
+              height={250}
+              alt="map"
+              priority={true}
+            />
           </div>
         </div>
-      </Card>
+      </div>
 
-      <Card
-        data-bs-theme="dark"
-        className="px-lg-5 py-lg-3 justify-content-center"
-      >
+      <div className="px-lg-5 py-lg-3 justify-content-center">
         <div className="row d-flex align-items-center  p-md-0 p-4">
           <div className="col-md-4 col-sm-12">
             <h2 className="lightblue mx-3 text-center">About my Knowledge</h2>
@@ -43,12 +47,9 @@ export default function about() {
             </p>
           </div>
         </div>
-      </Card>
+      </div>
 
-      <Card
-        data-bs-theme="dark"
-        className="px-lg-5 py-lg-3 justify-content-center"
-      >
+      <div className="px-lg-5 py-lg-3 justify-content-center">
         <div className="row d-flex align-items-center p-md-0 p-4">
           <div className="col-md-4 col-sm-12">
             <h2 className="px-3 lightblue text-center">
@@ -66,7 +67,7 @@ export default function about() {
             </p>
           </div>
         </div>
-      </Card>
+      </div>
     </div>
   );
 }
