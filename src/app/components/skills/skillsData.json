@@ -3,190 +3,159 @@
     {
       "id": 1,
       "icon": "simple-icons:drupal",
-      "name": "Drupal",
-      "level": "Advanced"
+      "name": "Drupal"
     },
     {
       "id": 2,
       "icon": "simple-icons:javascript",
-      "name": "JavaScript",
-      "level": "Intermediate"
+      "name": "JavaScript"
     },
     {
       "id": 2.5,
       "icon": "simple-icons:typescript",
-      "name": "TypeScript",
-      "level": "Intermediate"
+      "name": "TypeScript"
     },
     {
       "id": 3,
       "icon": "vscode-icons:file-type-scss",
-      "name": "SCSS",
-      "level": "Advanced"
+      "name": "SCSS"
     },
     {
       "id": 4,
       "icon": "mdi:react",
-      "name": "React",
-      "level": "Intermediate"
+      "name": "React"
     },
     {
       "id": 4.5,
       "icon": "mdi:react",
-      "name": "React Native",
-      "level": "Intermediate"
+      "name": "React Native"
     },
     {
       "id": 5,
       "icon": "mdi:gatsby",
-      "name": "Gatsby",
-      "level": "Intermediate"
+      "name": "Gatsby"
     },
     {
       "id": 6,
       "icon": "simple-icons:astro",
-      "name": "Astro",
-      "level": "Begginner"
+      "name": "Astro"
     },
     {
       "id": 7,
       "icon": "teenyicons:nextjs-solid",
-      "name": "Next.js",
-      "level": "Begginner"
+      "name": "Next.js"
     },
     {
       "id": 8,
       "icon": "mdi:bootstrap",
-      "name": "Bootstrap",
-      "level": "Advanced"
+      "name": "Bootstrap"
     },
     {
       "id": 9,
       "icon": "simple-icons:storybook",
-      "name": "Storybook",
-      "level": "Advanced"
+      "name": "Storybook"
     },
     {
       "id": 10,
       "src": "/images/emulsify.png",
-      "name": "Emulsify",
-      "level": "Advanced"
+      "name": "Emulsify"
     },
     {
       "id": 11,
       "icon": "file-icons:twig",
-      "name": "Twig",
-      "level": "Advanced"
+      "name": "Twig"
     },
     {
       "id": 12,
       "icon": "mdi:git",
-      "name": "Git",
-      "level": "Advanced"
+      "name": "Git"
     },
     {
       "id": 13,
       "icon": "mdi:github",
-      "name": "Git",
-      "level": "Advanced"
+      "name": "Git"
     },
     {
       "id": 14,
       "icon": "mdi:graphql",
-      "name": "GraphQL",
-      "level": "Beginner"
+      "name": "GraphQL"
     },
     {
       "id": 15,
       "icon": "gg:npm",
-      "name": "NPM",
-      "level": "Beginner"
+      "name": "NPM"
     },
     {
       "id": 16,
       "icon": "file-icons:composer",
-      "name": "Composer",
-      "level": "Begginner"
+      "name": "Composer"
     },
     {
       "id": 17,
       "icon": "simple-icons:pantheon",
-      "name": "Pantheon",
-      "level": "Intermediate"
+      "name": "Pantheon"
     },
     {
       "id": 18,
       "icon": "simple-icons:netlify",
-      "name": "Netlify",
-      "level": "Intermediate"
+      "name": "Netlify"
     },
     {
       "id": 19,
       "src": "/images/lando.png",
-      "name": "Lando",
-      "level": "Intermediate"
+      "name": "Lando"
     },
     {
       "id": 20,
       "icon": "mdi:docker",
-      "name": "Docker",
-      "level": "Intermediate"
+      "name": "Docker"
     },
     {
       "id": 21,
       "icon": "simple-icons:php",
-      "name": "PHP",
-      "level": "Begginner"
+      "name": "PHP"
     },
     {
       "id": 22,
       "icon": "mdi:laravel",
-      "name": "Laravel",
-      "level": "Begginner"
+      "name": "Laravel"
     },
     {
       "id": 23,
       "icon": "ic:baseline-wordpress",
-      "name": "WordPress",
-      "level": "Advanced"
+      "name": "WordPress"
     },
     {
       "id": 24,
       "icon": "simple-icons:contentful",
-      "name": "Contentful",
-      "level": "Intermediate"
+      "name": "Contentful"
     }
   ],
   "designMultimedia": [
     {
       "id": 1,
       "icon": "solar:figma-bold",
-      "name": "Figma",
-      "level": "Intermediate"
+      "name": "Figma"
     },
     {
       "id": 2,
       "icon": "devicon-plain:illustrator",
-      "name": "Illustrator",
-      "level": "Advanced"
+      "name": "Illustrator"
     },
     {
       "id": 3,
       "icon": "devicon-plain:photoshop",
-      "name": "Photoshop",
-      "level": "Advanced"
+      "name": "Photoshop"
     },
     {
       "id": 5,
       "icon": "devicon-plain:aftereffects",
-      "name": "After Effects",
-      "level": "Intermediate"
+      "name": "After Effects"
     },
     {
       "id": 6,
       "icon": "devicon-plain:premierepro",
-      "name": "Premiere Pro",
-      "level": "Intermediate"
+      "name": "Premiere Pro"
     }
   ]
 }
