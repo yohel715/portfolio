@@ -37,7 +37,6 @@ export default function skill() {
                   )
                 )}
                 <p className="font-weight-bold mt-3">{skill.name}</p>
-                <p className="small font-weight-light">{skill.level}</p>
               </div>
             ))}
           </div>
