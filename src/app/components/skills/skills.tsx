@@ -61,7 +61,6 @@ export default function skill() {
               <div key={skill.id} className="skills__wrapper__item">
                 <Icon icon={skill.icon} width="32" height="32" />
                 <p className="font-weight-bold mt-3">{skill.name}</p>
-                <p className="small font-weight-light">{skill.level}</p>
               </div>
             ))}
           </div>
