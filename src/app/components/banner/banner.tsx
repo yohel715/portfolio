@@ -10,7 +10,7 @@ import { saveAs } from "file-saver";
 import { Icon } from "@iconify/react";
 
 export default function banner() {
-  const pdfUrl = "curriculum.pdf";
+  const pdfUrl = "cv-yohel-domingo-urena-mora.pdf";
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [show, setShow] = useState(false);
@@ -26,7 +26,7 @@ export default function banner() {
       .then((response) => response.blob())
       .then((blob) => {
         // Use file-saver to save the blob as a file
-        saveAs(blob, "curriculum.pdf");
+        saveAs(blob, "cv-yohel-domingo-urena-mora.pdf");
       })
       .catch((error) => {
         console.error("Error downloading file:", error);
@@ -40,7 +40,7 @@ export default function banner() {
     },
     {
       icon: "simple-icons:github",
-      url: "https://github.com/",
+      url: "https://github.com/yohel715",
     },
     {
       icon: "simple-icons:maildotru",
@@ -63,8 +63,8 @@ export default function banner() {
           <div className="pe-md-5">
             <span>Hi! I’m</span>
             <h1>Yohel Ureña Mora</h1>
-            <p className="h2">
-              Frontend Developer and UX Designer
+            <p className="h2 w-md-75">
+              Full Stack Developer and UX Designer
             </p >
             <Button
               type="button"

@@ -5,8 +5,7 @@ export default function about() {
   return (
     <div className="about">
       <div className="px-lg-5 py-lg-3">
-        <div
-          className=" row d-flex align-items-center  flex-sm-row-reverse my-3 p-md-0 p-4">
+        <div className=" row d-flex align-items-center  flex-sm-row-reverse my-3 p-md-0 p-4">
           <div className="col-md-8 col-sm-12">
             <h2 className="mb-3 lightblue text-center-sm">
               I’m from Costa Rica!
@@ -38,12 +37,12 @@ export default function about() {
           </div>
           <div className="col-md-8 col-sm-12">
             <p>
-              I am a postgraduate from a bilingual high school. Later on, I
-              started my higher education in graphic design.
+              In 2018, I started my specialization in Computer Science and
+              Multimedia Technology at the University of Costa Rica (UCR).
             </p>
             <p>
-              Since 2018, I have been majoring in Informática y Tecnología
-              Multimedia in the University of Costa Rica (UCR).
+              In 2021, I completed my bachelor&apos;s degree, and I am currently
+              finishing my master&apos;s degree.
             </p>
           </div>
         </div>
@@ -58,15 +57,30 @@ export default function about() {
           </div>
           <div className="col-md-8 col-sm-12">
             <p>
-              I am genuinely passionate about problem-solving, creating
-              attractive designs, and always learning new things every day.
+              Passionate about all UX and UI trends, usability, and
+              accessibility, I am a Full Stack Developer, primarily focused on
+              Frontend development. I have been involved in various projects
+              using technologies such as React, JavaScript, Typescript, PHP, and
+              jQuery. Giving me hand-code experience in hybrid mobile and web
+              development
             </p>
             <p>
-              Since childhood, I have enjoyed challenges that test my ingenuity;
-              in fact, I love Rubik’s Cubes and puzzles overall.
+              Additionally, I excel in crafting vector elements, wireframes and
+              prototyping, ensuring a seamless integration of design and
+              development for optimal user engagement applying usability and
+              accessibility principles.
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="d-flex justify-content-center py-5">
+        <p>
+          <i>
+            I enjoy creating great looking digital products, focusing on
+            performance, and good user experience as well.
+          </i>
+        </p>
       </div>
     </div>
   );

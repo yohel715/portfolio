@@ -18,23 +18,40 @@ export default function experience() {
         </div>
         <div className="col-10 right">
           <div className="d-flex justify-content-center flex-column">
-            <h3>Frontend Web Developer at ParallelDevs</h3>
+            <h3 className="lightblue">Full Stack Developer at ParallelDevs</h3>
             <p>
               I worked on several development projects, showcasing my
-              proficiency in Drupal, WordPress, and other headless sites with
-              frameworks like React, Gatsby, Astro, and others using CMS like
-              Drupal or Contentfull consulted through GraphQL. My expertise
+              proficiency in Drupal{" "}
+              <Icon icon="simple-icons:drupal" width="18" height="18" />,
+              WordPress{" "}
+              <Icon icon="ic:baseline-wordpress" width="18" height="18" />, and
+              other decoupled sites with frameworks like React{" "}
+              <Icon icon="mdi:react" width="18" height="18" />, Gatsby{" "}
+              <Icon icon="mdi:gatsby" width="18" height="18" />, Astro{" "}
+              <Icon icon="mdi:gatsby" width="18" height="18" />, and others
+              using CMS like Drupal{" "}
+              <Icon icon="simple-icons:drupal" width="18" height="18" /> or
+              Contentfull{" "}
+              <Icon icon="simple-icons:contentful" width="18" height="18" />{" "}
+              consulted through GraphQL{" "}
+              <Icon icon="mdi:graphql" width="18" height="18" />. My expertise
               extends to applying the Atomic Design Methodology by implementing
-              the Emulsify framework to generate reusable frontend components
-              for custom theming. Additionally, I worked on other site-building
+              the Emulsify framework to generate reusable components for custom
+              theming. Additionally, I worked on other site-building
               functionalities, including building custom modules, content types,
               views, blocks, SEO optimization, forms, and more.
             </p>
             <p>Some of my achievements include:</p>
             <ul>
               <li>Developments in limited times.</li>
-              <li>Active participation in the Drupal community, and module maintenance.</li>
-              <li>Joint development with people from different countries like USA, Canada, and Bangladesh.</li>
+              <li>
+                Active participation in the Drupal community, and module
+                maintenance.
+              </li>
+              <li>
+                Joint development with people from different countries like USA,
+                Canada, and Bangladesh.
+              </li>
               <li>High performance in development as well as interface.</li>
               <li>Gave talks at the Drupal Camp Costa Rica 2022 and 2023.</li>
             </ul>
@@ -45,40 +62,21 @@ export default function experience() {
       <div className="row">
         <div className="col-2 left">
           <div className="d-flex justify-content-end">
-            <p className="small lightblue fw-light">2020 & 2021</p>
+            <p className="small lightblue fw-light">2019 - 2021</p>
           </div>
         </div>
         <div className="col-10 right">
           <div className="d-flex justify-content-center flex-column">
-            <h3>
-              Assistant hours at the Luis Ferrero Acosta Library of the UCR
-            </h3>
+            <h3 className="lightblue">Assistant at University of Costa Rica (UCR)</h3>
             <p>
-              In this part-time job I updated and managed the library&apos;s
-              website and database, also managed the library&apos;s social
-              networks, created posters and other graphic identity elements to
-              promote academic activities or celebrate holidays, worked as part
-              of a team to organize activities in the library.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="col-2 left">
-          <div className="d-flex justify-content-end">
-            <p className="small lightblue fw-light">2019</p>
-          </div>
-        </div>
-        <div className="col-10 right">
-          <div className="d-flex justify-content-center flex-column">
-            <h3>Assistant hours at Acción Social Department of the UCR</h3>
-            <p>
-              In this part-time job I worked as an assistant providing help and
+              I updated and managed the library&apos;s website and database,
+              also managed the library&apos;s social networks, created posters
+              and other graphic identity elements to promote academic
+              activities. I organized campaigns in the UCR providing help and
               support in different socio-cultural activities that involved
               people from the community, and people in situations of poverty or
-              social risk, I managed the office and organized several files to
-              keep control and inventories.
+              social risk. I managed the office and organized several documents
+              to keep control and inventories.
             </p>
           </div>
         </div>
@@ -92,19 +90,18 @@ export default function experience() {
         </div>
         <div className="col-10 right">
           <div className="d-flex justify-content-center flex-column">
-            <h3>InterGameDev & Desing at Ingeniust</h3>
+            <h3 className="lightblue">InterGameDev & Desing at Ingeniust</h3>
             <p>
-              In this part-time job I worked in design and prototyping of menu
-              interface for videogames developed with Unity
-              <Icon icon="mdi:unity" width="24" height="24" />. My main role was
-              to design and develop the interface in Unity, and to create the
-              assets for the game.
+              I developed content and graphic material for social networks.
+              Design and prototyping of User Interface (UI) and User Experience
+              (UX) for projects developed in Unity{" "}
+              <Icon icon="mdi:unity" width="18" height="18" />, I setup graphic
+              material for printing and identifiers for third parties generating
+              brand identity and visual identifier for several companies.
             </p>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }
