@@ -13,8 +13,8 @@ export default function contact() {
           <h3>Text me</h3>
           <ContactForm />
         </div>
-        <div className="col-md-4 col-sm-12 pt-5 pt-md-0">
-          <div className="d-flex flex-column align-items-center">
+        <div className="col-md-4 col-sm-12 pt-5 pt-md-0 ps-md-5">
+          <div className="d-flex flex-column">
             <h3>My social networks</h3>
             <a
               className="d-flex mt-3 mb-4 align-items-center"
@@ -51,6 +51,15 @@ export default function contact() {
             >
               <Icon icon="ant-design:github" width="32" height="32" />
               <h6 className="font-weight-regular mx-2 m-0">yohel715</h6>
+            </a>
+            <a
+              className="d-flex mb-4 align-items-center"
+              target="_blank"
+              href="https://wa.me/50670139624"
+              rel="noopener noreferrer"
+            >
+              <Icon icon="simple-icons:whatsapp" width="32" height="32" />
+              <h6 className="font-weight-regular mx-2 m-0">+506 7013 9624</h6>
             </a>
           </div>
         </div>
