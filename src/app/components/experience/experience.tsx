@@ -20,26 +20,13 @@ export default function experience() {
           <div className="d-flex justify-content-center flex-column">
             <h3 className="lightblue">Full Stack Developer at ParallelDevs</h3>
             <p>
-              I worked on several development projects, showcasing my
-              proficiency in Drupal{" "}
-              <Icon icon="simple-icons:drupal" width="18" height="18" />,
-              WordPress{" "}
-              <Icon icon="ic:baseline-wordpress" width="18" height="18" />, and
-              other decoupled sites with frameworks like React{" "}
-              <Icon icon="mdi:react" width="18" height="18" />, Gatsby{" "}
-              <Icon icon="mdi:gatsby" width="18" height="18" />, Astro{" "}
-              <Icon icon="mdi:gatsby" width="18" height="18" />, and others
-              using CMS like Drupal{" "}
-              <Icon icon="simple-icons:drupal" width="18" height="18" /> or
-              Contentfull{" "}
-              <Icon icon="simple-icons:contentful" width="18" height="18" />{" "}
-              consulted through GraphQL{" "}
-              <Icon icon="mdi:graphql" width="18" height="18" />. My expertise
-              extends to applying the Atomic Design Methodology by implementing
-              the Emulsify framework to generate reusable components for custom
-              theming. Additionally, I worked on other site-building
-              functionalities, including building custom modules, content types,
-              views, blocks, SEO optimization, forms, and more.
+            Development projects that showcase my expertise in Drupal, React and React Native. I apply the principles of atomic design methodology, generating reusable components and developing decoupled sites with React-based frameworks such as NextJS, Angular, Gatsby, Astro and Remix consuming APIs using GraphQL and HTTP request methods. I also have experience in data modeling management with  databases RDBMS in MySQL and a strong commitment to excellent practices in SEO, usability and accessibility.
+            </p>
+            <p>
+              My expertise extends to generate reusable components for custom
+              theming and consume backend services. Additionally, I generate
+              documentation, code standardization, guidelines and how to articles
+              for other developers.
             </p>
             <p>Some of my achievements include:</p>
             <ul>
@@ -53,8 +40,25 @@ export default function experience() {
                 Canada, and Bangladesh.
               </li>
               <li>High performance in development as well as interface.</li>
-              <li>Gave talks at the Drupal Camp Costa Rica 2022 and 2023.</li>
+              <li>Gave tech talks to colleagues and at the Drupal Camp CR 2022 & 2023.</li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-2 left">
+          <div className="d-flex justify-content-end">
+            <p className="small lightblue fw-light">2021 - 2022</p>
+          </div>
+        </div>
+        <div className="col-10 right">
+          <div className="d-flex justify-content-center flex-column">
+            <h3 className="lightblue">Frontend Developer at ParallelDevs</h3>
+            <p>
+            I worked in frontend development generating and building websites in Drupal, ContentFull and WordPress. I actively participated in the suite building and customization of Drupal themas and the configuration of blocks, views, taxonomies and modules.
+            Developed projects in React using different Node.JS libraries.
+            </p>
           </div>
         </div>
       </div>
