@@ -14,15 +14,17 @@ export default function skill() {
             Software Development
           </h2>
           <p>
-            Management of different programming languages such as Java,
-            Javascript, PHP. In addition, the use of different frameworks such
-            as Android Studio, React, Laravel, Bootstrap, and SASS. And the
-            platform Expo for making universal native apps for Android, iOS.
+            Development projects that showcase my expertise in Drupal, React and
+            React Native. I apply the principles of atomic design methodology,
+            generating reusable components and developing decoupled sites with
+            React-based frameworks such as NextJS, Angular, Gatsby, Astro and
+            Remix consuming APIs using GraphQL and HTTP request methods. I also
+            have experience in data modeling management with databases RDBMS in
+            MySQL.
           </p>
           <p>
-            Besides, the uses of CMS including WordPress and Drupal tools for
-            control version with GitHub and dependency manager such as Composer,
-            NPM, and Node.js.
+            Besides, the uses of tools for control version with GitHub and
+            dependency manager such as Composer, NPM, and Node.js.
           </p>
           <div className="skills__wrapper d-flex flex-wrap justify-content-center mx-3">
             {skillsData.softwareDevelopment.map((skill) => (
@@ -32,7 +34,7 @@ export default function skill() {
                 ) : (
                   skill.src && (
                     <div className="image-wrapper">
-                      <img src={skill.src} alt={skill.name}/>
+                      <img src={skill.src} alt={skill.name} />
                     </div>
                   )
                 )}
