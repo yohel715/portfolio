@@ -20,13 +20,18 @@ export default function experience() {
           <div className="d-flex justify-content-center flex-column">
             <h3 className="lightblue">Full Stack Developer at ParallelDevs</h3>
             <p>
-            Development projects that showcase my expertise in Drupal, React and React Native. I apply the principles of atomic design methodology, generating reusable components and developing decoupled sites with React-based frameworks such as NextJS, Angular, Gatsby, Astro and Remix consuming APIs using GraphQL and HTTP request methods. I also have experience in data modeling management with  databases RDBMS in MySQL and a strong commitment to excellent practices in SEO, usability and accessibility.
-            </p>
-            <p>
-              My expertise extends to generate reusable components for custom
-              theming and consume backend services. Additionally, I generate
-              documentation, code standardization, guidelines and how to articles
-              for other developers.
+              Team Lead with expertise in Drupal and Decoupled Drupal projects,
+              utilizing React-based frameworks like Next.js, Angular, Gatsby,
+              Astro, and Remix, and consuming APIs via GraphQL and Axios.
+              Skilled in data modeling with MySQL and committed to best
+              practices in SEO, usability, and accessibility (WCAG 2.2). Proven
+              ability to build complex websites and mobile apps through custom
+              frontend and backend integration. As a designer, I create
+              functional prototypes in Figma, ensuring optimal user experience.
+              Authored documentation, code standards, and guidelines for
+              developers. Key responsibilities include code reviews, mentoring
+              junior developers, and active participation in the Drupal
+              community, including module maintenance.
             </p>
             <p>Some of my achievements include:</p>
             <ul>
@@ -36,11 +41,14 @@ export default function experience() {
                 maintenance.
               </li>
               <li>
-                Joint development with people from different countries like USA,
-                Canada, and Bangladesh.
+                Joint development with people from different countries like U.S and
+                Canada.
               </li>
               <li>High performance in development as well as interface.</li>
-              <li>Gave tech talks to colleagues and at the Drupal Camp CR 2022 & 2023.</li>
+              <li>
+                Gave tech talks to colleagues and at the Drupal Camp CR 2022 &
+                2023.
+              </li>
             </ul>
           </div>
         </div>
@@ -56,8 +64,12 @@ export default function experience() {
           <div className="d-flex justify-content-center flex-column">
             <h3 className="lightblue">Frontend Developer at ParallelDevs</h3>
             <p>
-            I worked in frontend development generating and building websites in Drupal, ContentFull and WordPress. I actively participated in the suite building and customization of Drupal themas and the configuration of blocks, views, taxonomies and modules.
-            Developed projects in React using different Node.JS libraries.
+              Developed and built websites using Drupal, Contentful, and
+              WordPress. Led the customization and creation of Drupal themes,
+              utilizing blocks, views, taxonomies, and both contributed and
+              custom modules. Applied atomic design methodology to create
+              reusable components and design complex interface systems for
+              scalable and efficient web development.
             </p>
           </div>
         </div>
@@ -71,7 +83,9 @@ export default function experience() {
         </div>
         <div className="col-10 right">
           <div className="d-flex justify-content-center flex-column">
-            <h3 className="lightblue">Assistant at University of Costa Rica (UCR)</h3>
+            <h3 className="lightblue">
+              Assistant at University of Costa Rica (UCR)
+            </h3>
             <p>
               I updated and managed the library&apos;s website and database,
               also managed the library&apos;s social networks, created posters
