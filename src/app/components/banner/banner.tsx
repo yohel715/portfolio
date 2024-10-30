@@ -97,7 +97,7 @@ export default function banner() {
       <Modal
         dialogClassName="custom-modal"
         show={show}
-        size="xl"
+        size="lg"
         onHide={handleClose}
         data-bs-theme="dark"
         centered
@@ -106,7 +106,7 @@ export default function banner() {
         <Modal.Header closeButton>
           <Modal.Title>Curriculum</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="mx-auto">
           <PdfViewer pdfUrl={pdfUrl} />
         </Modal.Body>
         <Modal.Footer>
