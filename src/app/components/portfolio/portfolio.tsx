@@ -23,7 +23,7 @@ export default function Portfolio() {
         {portfolioData.map((item, index) => (
           <React.Fragment key={index}>
             <Card data-bs-theme="dark" className='portfolio-card mb-4'>
-              <Card.Img variant="top" src={item.image} />
+              { item.image && <Card.Img variant="top" src={item.image} alt={item.alt} />}
               <Card.Body>
                 <div className="d-flex flex-wrap">
                   {item.tags && item.tags.map((tag, index) => (

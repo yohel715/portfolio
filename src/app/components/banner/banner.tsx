@@ -53,7 +53,7 @@ export default function banner() {
     {
       icon: "simple-icons:drupal",
       url: "https://www.drupal.org/u/yurena",
-    }
+    },
   ];
 
   return (
@@ -63,16 +63,20 @@ export default function banner() {
           <div className="pe-md-5">
             <span>Hi! I’m</span>
             <h1>Yohel Ureña Mora</h1>
-            <p className="h2 w-md-75">
-              Full Stack Developer and UX Designer
-            </p >
+            <h2 className="h2 w-md-75">Full Stack Developer and UX Designer</h2>
             <Button
               type="button"
-              className="mt-3"
-              variant="outline-primary"
-              onClick={handleShow}
+              className="my-3"
+              variant="light"
+              onClick={downloadFile}
             >
-              Check my curriculum
+              <Icon
+                icon="akar-icons:download"
+                width="20"
+                height="20"
+                className="me-2"
+              />
+              Download my curriculum
             </Button>
             <div className="d-flex justify-content-center justify-content-lg-start mt-3 contact-links">
               {contacs.map((contact, index) => (
@@ -82,6 +86,7 @@ export default function banner() {
                   target="_blank"
                   rel="noreferrer"
                   className="text-decoration-none me-3"
+                  aria-label={contact.icon.split(":")[1]}
                 >
                   <Icon icon={contact.icon} width="32" height="32" />
                 </a>
@@ -89,7 +94,12 @@ export default function banner() {
             </div>
           </div>
           <div>
-            <Image src={profilePic} height={400} alt="Picture of the author" priority />
+            <Image
+              src={profilePic}
+              height={400}
+              alt="Picture of the author"
+              priority
+            />
           </div>
         </div>
       </div>
@@ -112,9 +122,15 @@ export default function banner() {
         <Modal.Footer>
           <Button
             variant="primary"
-            className="font-weight-bold px-5"
+            className="font-weight-bold px-4"
             onClick={downloadFile}
           >
+            <Icon
+              icon="akar-icons:download"
+              width="20"
+              height="20"
+              className="me-2"
+            />
             Download
           </Button>
           <Button variant="secondary" onClick={handleClose}>

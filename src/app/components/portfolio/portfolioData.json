@@ -9,6 +9,7 @@
       }
     ],
     "image": "/images/portfolio/sinwa-tours-wireframes.png",
+    "alt": "Design of the Sinwa Tours website wireframes",
     "url": "/portfolio/sinwa-tours-wireframes",
     "tags": ["Design"],
     "technologies": [
@@ -25,6 +26,7 @@
       }
     ],
     "image": "/images/portfolio/magic-the-gathering.png",
+    "alt": "Design of the Magic The Gathering prototype",
     "url": "/portfolio/magic-the-gathering",
     "tags": ["Development"],
     "technologies": [
@@ -46,6 +48,7 @@
       }
     ],
     "image": "/images/portfolio/matte-painting.jpg",
+    "alt": "Matte painting art",
     "url": "/portfolio/matte-painting-art",
     "tags": ["Design"],
     "technologies": [
@@ -62,6 +65,7 @@
       }
     ],
     "image": "/images/portfolio/ticovid-app-wireframes.png",
+    "alt": "Design of the Ticovid APP wireframes",
     "url": "/portfolio/ticovid-app-wireframes",
     "tags": ["Design"],
     "technologies": [
@@ -82,6 +86,7 @@
       }
     ],
     "image": "/images/portfolio/ticovid-app-prototype.png",
+    "alt": "Design of the Ticovid APP prototype",
     "url": "/portfolio/ticovid-app-prototype",
     "tags": ["Development"],
     "technologies": [
