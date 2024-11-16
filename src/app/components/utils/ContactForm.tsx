@@ -78,7 +78,7 @@ const ContactForm = () => {
         {errors.message && <Form.Text className="text-danger">{errors.message.message}</Form.Text>}
       </Form.Group>
 
-      <Button variant="outline-primary px-5 mt-3" type="submit">
+      <Button className="btn-light px-5 mt-3" type="submit">
         Submit
       </Button>
 

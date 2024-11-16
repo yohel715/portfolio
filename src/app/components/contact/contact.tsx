@@ -54,7 +54,7 @@ export default function contact() {
                   rel="noopener noreferrer"
                 >
                   <Icon icon={item.icon} width="32" height="32" />
-                  <h6 className="font-weight-regular mx-2 m-0">{item.text}</h6>
+                  <p className="h5 font-weight-regular mx-2 m-0">{item.text}</p>
                 </a>
               ))
             }

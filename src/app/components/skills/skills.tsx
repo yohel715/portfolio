@@ -34,11 +34,11 @@ export default function skill() {
                 ) : (
                   skill.src && (
                     <div className="image-wrapper">
-                      <img src={skill.src} alt={skill.name} />
+                      <img src={skill.src} alt={skill.name+' icon'}/>
                     </div>
                   )
                 )}
-                <p className="font-weight-bold mt-3">{skill.name}</p>
+                <h3 className="font-weight-bold mt-3">{skill.name}</h3>
               </div>
             ))}
           </div>
@@ -62,7 +62,7 @@ export default function skill() {
             {skillsData.designMultimedia.map((skill) => (
               <div key={skill.id} className="skills__wrapper__item">
                 <Icon icon={skill.icon} width="32" height="32" />
-                <p className="font-weight-bold mt-3">{skill.name}</p>
+                <h3 className="font-weight-bold mt-3">{skill.name}</h3>
               </div>
             ))}
           </div>

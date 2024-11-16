@@ -1,9 +1,5 @@
-"use client";
-
 import React, { useState } from "react";
 import { pdfjs, Document, Page } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import "react-pdf/dist/esm/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
@@ -23,7 +19,7 @@ export default function PdfViewer({ pdfUrl }: { pdfUrl: string }) {
     >
       {numberOfPages === null ? null : (
         [...Array(numberOfPages)].map((_, pageIndex) => (
-          <Page key={pageIndex + 1} pageNumber={pageIndex + 1} />
+          <Page key={pageIndex + 1} pageNumber={pageIndex + 1}/>
         ))
       )}
     </Document>
