@@ -35,31 +35,22 @@ export default function contact() {
 
   return (
     <div className="contact mb-5">
-      <h2 className="lightblue py-3 heading-large mb-5">Let&apos;s create something new!</h2>
-      <div className="row">
-        <div className="col-md-8 col-sm-12">
-          <h3>Text me</h3>
-          <ContactForm />
-        </div>
-        <div className="col-md-4 col-sm-12 pt-5 pt-md-0 ps-md-5">
-          <div className="d-flex flex-column">
-            <h3>My social networks</h3>
-            {
-              links.map((item, index) => (
-                <a
-                  key={index}
-                  className="d-flex my-3 align-items-center"
-                  target="_blank"
-                  href={item.href}
-                  rel="noopener noreferrer"
-                >
-                  <Icon icon={item.icon} width="32" height="32" />
-                  <p className="h5 font-weight-regular mx-2 m-0">{item.text}</p>
-                </a>
-              ))
-            }
-          </div>
-        </div>
+      <h2 className="lightblue py-3 heading-large mb-5">
+        Let&apos;s create something new!
+      </h2>
+      <div className="d-flex flex-column flex-lg-row justify-content-between">
+          {links.map((item, index) => (
+          <a
+            key={index}
+            className="d-flex align-items-center"
+            target="_blank"
+            href={item.href}
+            rel="noopener noreferrer"
+          >
+            <Icon icon={item.icon} width="20" height="20" />
+            <p className="h5 font-weight-regular mx-2 m-0">{item.text}</p>
+          </a>
+        ))}
       </div>
     </div>
   );

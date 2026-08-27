@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { Form, Button, Modal } from 'react-bootstrap';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 type FormData = {
   name: string;
