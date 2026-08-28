@@ -1,21 +1,17 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { addClassOnScroll } from "../utils/scrollUtils";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 function Navigationbar() {
-
-  addClassOnScroll("nav-scrolled", 50, ".navbar");
 
   // Set active nav item
   const [activeNavItem, setActiveNavItem] = useState("home");
 
   // Array of navigation items
   const navItems = [
-    { id: "home", label: "Home" },
-    { id: "about", label: "About me" },
+    { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
     { id: "portfolio", label: "Portfolio" },
@@ -25,7 +21,7 @@ function Navigationbar() {
   return (
     <Navbar
       expand="lg"
-      className="navbar navbar-expand-lg nav"
+      className="navbar navbar-expand-lg nav sticky-top"
       id="navbar"
     >
       <div className="container">

@@ -25,32 +25,32 @@ export default function contact() {
       text: "yohel715",
       href: "https://github.com/yohel715",
       icon: "ant-design:github",
-    },
-    {
-      text: "+506 7013 9624",
-      href: "https://wa.me/50670139624",
-      icon: "simple-icons:whatsapp",
-    },
+    }
   ];
 
   return (
-    <div className="contact mb-5">
-      <h2 className="lightblue py-3 heading-large mb-5">
-        Let&apos;s create something new!
-      </h2>
-      <div className="d-flex flex-column flex-lg-row justify-content-between">
-          {links.map((item, index) => (
-          <a
-            key={index}
-            className="d-flex align-items-center"
-            target="_blank"
-            href={item.href}
-            rel="noopener noreferrer"
-          >
-            <Icon icon={item.icon} width="20" height="20" />
-            <p className="h5 font-weight-regular mx-2 m-0">{item.text}</p>
-          </a>
-        ))}
+    <div className="contact" id="contact">
+      <div className="container">
+        <div className="my-5 mb-5">
+          <h2 className="lightblue py-4 heading-large">
+          Let&apos;s create something new
+          </h2>
+          <p className="h4">Get it touch with me!</p>
+        </div>
+        <div className="d-flex flex-column flex-lg-row justify-content-between">
+            {links.map((item, index) => (
+            <a
+              key={index}
+              className="d-flex align-items-center mb-5"
+              target="_blank"
+              href={item.href}
+              rel="noopener noreferrer"
+            >
+              <Icon icon={item.icon} width="20" height="20" />
+              <p className="h5 font-weight-regular mx-2 m-0">{item.text}</p>
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );
