@@ -1,12 +1,8 @@
 "use client"
 
-// Utils
-import ScrollSpy from "react-ui-scrollspy";
-
 // Components
 import Banner from './components/banner/banner'
 import Navigationbar from './components/navbar/navbar'
-import About from './components/about/about'
 import Skills from './components/skills/skills'
 import ScrollToTop from './components/utils/ScrollToTop'
 import Contact from './components/contact/contact'
@@ -18,26 +14,21 @@ export default function Home() {
     <>
     <Navigationbar />
     <div className="sections">
-      <ScrollSpy>
-        <section id="home">
-          <Banner />
-        </section>
-        <section id="about">
-          <About />
-        </section>
-        <section id="skills">
-          <Skills />
-        </section>
-        <section id="experience">
-          <Experience />
-        </section>
-        <section id="portfolio">
-          <Portfolio />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </ScrollSpy>
+      <section id="about">
+        <Banner />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="portfolio">
+        <Portfolio />
+      </section>
+      <div className="container-fluid p-0">
+        <Contact />
+      </div>
       <ScrollToTop />
     </div>
     </>

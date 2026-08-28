@@ -20,21 +20,18 @@
   }
 }
 
-.custom-modal {
-  padding: 8px;
-
-  .modal-content {
-    border-radius: 8px;
-    background-color: $grey;
+.about {
+  &.container {
+    @include media-breakpoint-up(md) {
+      max-width: $large;
+    }
   }
 
-  .modal-header,
-  .modal-footer {
-    background-color: $black;
-  }
+  .card {
+    min-height: 200px;
 
-  .modal-body {
-    padding: 0;
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
   }
 }
-
