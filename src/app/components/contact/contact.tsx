@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Icon } from "@iconify/react";
-import ContactForm from "../utils/ContactForm";
 
 export default function contact() {
   const links = [
