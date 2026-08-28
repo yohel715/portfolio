@@ -58,8 +58,11 @@ export default function banner() {
               <span>Hi! I’m</span>
               <h1>Yohel Ureña Mora</h1>
               <h2 className="h2 w-md-75">
-                Full Stack Developer and UX Designer
+                Technical Account Manager
               </h2>
+              <h3 className="h4 w-md-75 mt-3 subtitle">
+                Formerly Full Stack Developer and UX Designer
+              </h3>
               <Button
                 type="button"
                 className="my-3"
@@ -74,14 +77,14 @@ export default function banner() {
                 />
                 Download my curriculum
               </Button>
-              <div className="d-flex justify-content-center justify-content-lg-start mt-3 contact-links">
+              <div className="d-flex justify-content-evenly justify-content-lg-start mt-3 contact-links">
                 {contacs.map((contact, index) => (
                   <a
                     key={index}
                     href={contact.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-decoration-none me-5"
+                    className="text-decoration-none me-md-5"
                     aria-label={contact.icon.split(":")[1]}
                   >
                     <Icon icon={contact.icon} width="32" height="32" />
